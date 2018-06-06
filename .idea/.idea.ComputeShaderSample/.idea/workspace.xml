@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="099af73e-1748-4292-acee-63fb0b478b5a" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="ComputeShaderSample" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Instacing.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Instacing.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="104" column="71" selection-start-line="104" selection-start-column="71" selection-end-line="104" selection-end-column="71" />
+              <folding>
+                <marker date="1528301763782" expanded="true" signature="6:130" ph="..." />
+                <marker date="1528301763782" expanded="true" signature="171:4839" ph="{...}" />
+                <marker date="1528301763782" expanded="true" signature="175:399" ph="Defines" />
+                <marker date="1528301763782" expanded="true" signature="275:387" ph="{...}" />
+                <marker date="1528301763782" expanded="true" signature="402:1198" ph="Serialize Field" />
+                <marker date="1528301763782" expanded="true" signature="831:922" ph="/* compute shader に渡すrender texture ... */" />
+                <marker date="1528301763782" expanded="true" signature="1202:1615" ph="Private Field" />
+                <marker date="1528301763782" expanded="true" signature="1632:3317" ph="{...}" />
+                <marker date="1528301763782" expanded="true" signature="1990:2161" ph="/* _WaveBuffer = new ComputeBuffer(_instanceCountX, Marshal.SizeOf(typeof(float))); ... */" />
+                <marker date="1528301763782" expanded="true" signature="2294:2368" ph="/* var cubeDataArr = new CubeData[_instanceCount]; ... */" />
+                <marker date="1528301763782" expanded="true" signature="2766:2907" ph="/* _ComputeShader.SetBuffer(kernelId, &quot;_WaveBuffer&quot;, _WaveBuffer); ... */" />
+                <marker date="1528301763782" expanded="true" signature="3009:3309" ph="/* kernelId = _ComputeShader.FindKernel(&quot;InitWave&quot;); ... */" />
+                <marker date="1528301763782" expanded="true" signature="3337:4193" ph="{...}" />
+                <marker date="1528301763782" expanded="true" signature="3347:3665" ph="/* int kernelId; ... */" />
+                <marker date="1528301763782" expanded="true" signature="4220:4837" ph="{...}" />
+                <marker date="1528301763782" expanded="true" signature="4259:4302" ph="{...}" />
+                <marker date="1528301763782" expanded="true" signature="4345:4392" ph="{...}" />
+                <marker date="1528301763782" expanded="true" signature="4435:4482" ph="{...}" />
+                <marker date="1528301763782" expanded="true" signature="4514:4581" ph="{...}" />
+                <marker date="1528301763782" expanded="true" signature="4617:4692" ph="{...}" />
+                <marker date="1528301763782" expanded="true" signature="4737:4830" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Instacing.shader" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Instacing.shader">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="975">
+              <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+              <folding>
+                <marker date="1528312185525" expanded="true" signature="27:2636" ph="{...}" />
+                <marker date="1528312185525" expanded="true" signature="42:183" ph="{...}" />
+                <marker date="1528312185525" expanded="true" signature="198:2613" ph="{...}" />
+                <marker date="1528312185525" expanded="true" signature="246:2605" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NoiseRenderer.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/NoiseRenderer.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+              <folding>
+                <marker date="1528281464156" expanded="false" signature="6:78" ph="..." />
+                <marker date="1528281464156" expanded="true" signature="122:293" ph="{...}" />
+                <marker date="1528281464156" expanded="true" signature="230:291" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Instacing.compute" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Instacing.compute">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="82">
+              <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Instacing.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Instacing.compute" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common.cginc" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NoiseRenderer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Instacing.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scenes/Shaders/SimpleComputeShader.compute" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Scripts/SimpleComputeShader.cs" />
+        <option value="$PROJECT_DIR$/Assets/TextureComputeShader/Scripts/SimpleComputeShader.cs" />
+        <option value="$PROJECT_DIR$/Assets/TextureComputeShader/Shader/SimpleComputeShader.compute" />
+        <option value="$PROJECT_DIR$/Assets/TestComputeShader/Shaders/BoxShader.shader" />
+        <option value="$PROJECT_DIR$/Assets/TestComputeShader/Shaders/ManyBulletsComputeshader.compute" />
+        <option value="$PROJECT_DIR$/Assets/TestComputeShader/Scripts/MyBullets.cs" />
+        <option value="$PROJECT_DIR$/Assets/TestComputeShader/Shaders/ManyBulletShader.shader" />
+        <option value="$PROJECT_DIR$/Assets/TestComputeShader/Scripts/BoxRenderer.cs" />
+        <option value="$PROJECT_DIR$/Assets/TestComputeShader/Shaders/BoxMove.compute" />
+        <option value="$PROJECT_DIR$/Assets/TestComputeShader/Scripts/BoxMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/TestComputeShader/Shaders/ImageEffect.shader" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NoiseRenderer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Instacing.compute" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Instacing.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CameraControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Instacing.shader" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1" />
+    <option name="y" value="17" />
+    <option name="width" value="1447" />
+    <option name="height" value="968" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="UnityExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="UnityExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="ComputeShaderSample" type="483dac07:UnityExplorerNode$Root" />
+            </path>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="ComputeShaderSample" type="483dac07:UnityExplorerNode$Root" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-hidden-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="099af73e-1748-4292-acee-63fb0b478b5a" name="Default" comment="" />
+      <created>1528098301332</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1528098301332</updated>
+      <workItem from="1528098305913" duration="33510000" />
+      <workItem from="1528221881516" duration="3000" />
+      <workItem from="1528222343917" duration="2784000" />
+      <workItem from="1528272820378" duration="19192000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="55489000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="185" y="55" width="1157" height="774" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="14" />
+      <window_info anchor="right" id="Errors In Solution" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Unit Tests" order="4" />
+      <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="6" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.4965398" weight="0.13804714" />
+      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" order="2" weight="0.32916668" />
+      <window_info anchor="right" id="Database" order="0" visible="true" weight="0.007292616" />
+      <window_info id="Structure" order="2" sideWeight="0.5034602" side_tool="true" weight="0.12584269" />
+      <window_info active="true" id="Favorites" order="0" side_tool="true" visible="true" weight="0.26800364" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="NuGet" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="NuGet" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="10" />
+      <window_info anchor="bottom" id="Unity" order="2" weight="0.32916668" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.4965398" visible="true" weight="0.13804714" />
+      <window_info id="Structure" order="2" sideWeight="0.5034602" side_tool="true" weight="0.12584269" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="14" />
+      <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="9" />
+      <window_info anchor="bottom" id="Unit Tests" order="4" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
+      <window_info anchor="right" id="Errors In Solution" order="1" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Instacing.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          <folding>
+            <marker date="1528301763782" expanded="true" signature="6:130" ph="..." />
+            <marker date="1528301763782" expanded="true" signature="171:4839" ph="{...}" />
+            <marker date="1528301763782" expanded="true" signature="175:399" ph="Defines" />
+            <marker date="1528301763782" expanded="true" signature="275:387" ph="{...}" />
+            <marker date="1528301763782" expanded="true" signature="402:1198" ph="Serialize Field" />
+            <marker date="1528301763782" expanded="true" signature="831:922" ph="/* compute shader に渡すrender texture ... */" />
+            <marker date="1528301763782" expanded="true" signature="1202:1615" ph="Private Field" />
+            <marker date="1528301763782" expanded="true" signature="1632:3317" ph="{...}" />
+            <marker date="1528301763782" expanded="true" signature="1990:2161" ph="/* _WaveBuffer = new ComputeBuffer(_instanceCountX, Marshal.SizeOf(typeof(float))); ... */" />
+            <marker date="1528301763782" expanded="true" signature="2294:2368" ph="/* var cubeDataArr = new CubeData[_instanceCount]; ... */" />
+            <marker date="1528301763782" expanded="true" signature="2766:2907" ph="/* _ComputeShader.SetBuffer(kernelId, &quot;_WaveBuffer&quot;, _WaveBuffer); ... */" />
+            <marker date="1528301763782" expanded="true" signature="3009:3309" ph="/* kernelId = _ComputeShader.FindKernel(&quot;InitWave&quot;); ... */" />
+            <marker date="1528301763782" expanded="true" signature="3337:4193" ph="{...}" />
+            <marker date="1528301763782" expanded="true" signature="3347:3665" ph="/* int kernelId; ... */" />
+            <marker date="1528301763782" expanded="true" signature="4220:4837" ph="{...}" />
+            <marker date="1528301763782" expanded="true" signature="4259:4302" ph="{...}" />
+            <marker date="1528301763782" expanded="true" signature="4345:4392" ph="{...}" />
+            <marker date="1528301763782" expanded="true" signature="4435:4482" ph="{...}" />
+            <marker date="1528301763782" expanded="true" signature="4514:4581" ph="{...}" />
+            <marker date="1528301763782" expanded="true" signature="4617:4692" ph="{...}" />
+            <marker date="1528301763782" expanded="true" signature="4737:4830" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Instacing.compute">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TestComputeShader/Shaders/BoxShader.shader" />
+    <entry file="file://$PROJECT_DIR$/Assets/TextureComputeShader/Shader/SimpleComputeShader.compute" />
+    <entry file="file://$PROJECT_DIR$/Assets/TestComputeShader/Scripts/BoxRenderer.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/TestComputeShader/Scripts/BoxMove.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/TestComputeShader/Shaders/BoxMove.compute" />
+    <entry file="file://$PROJECT_DIR$/Assets/TestComputeShader/Shaders/ImageEffect.shader" />
+    <entry file="file://$PROJECT_DIR$/Assets/TestComputeShader/Shaders/SimpleComputeShader.compute" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scenes/Shaders/SimpleComputeShader.compute" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scenes/Scripts/SimpleComputeShader.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/TextureComputeShader/Scripts/SimpleComputeShader.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/TestComputeShader/Scripts/NewBehaviourScript.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/TestComputeShader/Scripts/MyBullets.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/TestComputeShader/Shaders/ManyBulletShader.shader" />
+    <entry file="file://$PROJECT_DIR$/Assets/TestComputeShader/Shaders/ManyBulletsComputeshader.compute" />
+    <entry file="file://$PROJECT_DIR$/Assets/TestComputeShader/Shaders/BoxMove.compute" />
+    <entry file="file://$PROJECT_DIR$/Assets/TestComputeShader/Shaders/BoxShader.shader" />
+    <entry file="file://$PROJECT_DIR$/Assets/TestComputeShader/Scripts/BoxMove.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/TestComputeShader/Scripts/BoxRenderer.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/TextureComputeShader/Shader/SimpleComputeShader.compute" />
+    <entry file="file://$PROJECT_DIR$/Assets/TestComputeShader/Shaders/ImageEffect.shader" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/NoiseRenderer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <marker date="1528281464156" expanded="false" signature="6:78" ph="..." />
+            <marker date="1528281464156" expanded="true" signature="122:293" ph="{...}" />
+            <marker date="1528281464156" expanded="true" signature="230:291" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Common.cginc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Instacing.compute">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Instacing.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="104" column="71" selection-start-line="104" selection-start-column="71" selection-end-line="104" selection-end-column="71" />
+          <folding>
+            <marker date="1528301763782" expanded="true" signature="6:130" ph="..." />
+            <marker date="1528301763782" expanded="true" signature="171:4839" ph="{...}" />
+            <marker date="1528301763782" expanded="true" signature="175:399" ph="Defines" />
+            <marker date="1528301763782" expanded="true" signature="275:387" ph="{...}" />
+            <marker date="1528301763782" expanded="true" signature="402:1198" ph="Serialize Field" />
+            <marker date="1528301763782" expanded="true" signature="831:922" ph="/* compute shader に渡すrender texture ... */" />
+            <marker date="1528301763782" expanded="true" signature="1202:1615" ph="Private Field" />
+            <marker date="1528301763782" expanded="true" signature="1632:3317" ph="{...}" />
+            <marker date="1528301763782" expanded="true" signature="1990:2161" ph="/* _WaveBuffer = new ComputeBuffer(_instanceCountX, Marshal.SizeOf(typeof(float))); ... */" />
+            <marker date="1528301763782" expanded="true" signature="2294:2368" ph="/* var cubeDataArr = new CubeData[_instanceCount]; ... */" />
+            <marker date="1528301763782" expanded="true" signature="2766:2907" ph="/* _ComputeShader.SetBuffer(kernelId, &quot;_WaveBuffer&quot;, _WaveBuffer); ... */" />
+            <marker date="1528301763782" expanded="true" signature="3009:3309" ph="/* kernelId = _ComputeShader.FindKernel(&quot;InitWave&quot;); ... */" />
+            <marker date="1528301763782" expanded="true" signature="3337:4193" ph="{...}" />
+            <marker date="1528301763782" expanded="true" signature="3347:3665" ph="/* int kernelId; ... */" />
+            <marker date="1528301763782" expanded="true" signature="4220:4837" ph="{...}" />
+            <marker date="1528301763782" expanded="true" signature="4259:4302" ph="{...}" />
+            <marker date="1528301763782" expanded="true" signature="4345:4392" ph="{...}" />
+            <marker date="1528301763782" expanded="true" signature="4435:4482" ph="{...}" />
+            <marker date="1528301763782" expanded="true" signature="4514:4581" ph="{...}" />
+            <marker date="1528301763782" expanded="true" signature="4617:4692" ph="{...}" />
+            <marker date="1528301763782" expanded="true" signature="4737:4830" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraControl.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Syphon.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/SyphonTexture/SyphonServerTexture.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Editor/SyphonEditor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Instacing.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+          <folding>
+            <marker date="1528312185525" expanded="true" signature="27:2636" ph="{...}" />
+            <marker date="1528312185525" expanded="true" signature="42:183" ph="{...}" />
+            <marker date="1528312185525" expanded="true" signature="198:2613" ph="{...}" />
+            <marker date="1528312185525" expanded="true" signature="246:2605" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
