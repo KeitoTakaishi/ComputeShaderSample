@@ -1,0 +1,50 @@
+﻿#pragma kernel Init
+
+#define ThreadBlockSize 256
+
+#include "noise/SimplexNoise2D.hlsl"
+#include "Common.cginc"
+
+struct CubeData
+{
+	//float3 BasePosition;
+	float3 Position;
+	float3 Velocity;
+	float3 Rotation;
+	float3 Albedo;
+};
+
+RWStructuredBuffer<CubeData> _CubeDataBuffer;
+RWStructuredBuffer<CubeData> _BaseCubeDataBuffer;
+RWStructuredBuffer<CubeData> _PrevCubeDataBuffer; 
+//RWStructuredBuffer<float> _WaveBuffer;
+//RWStructuredBuffer<float> _PrevWaveBuffer;
+
+int _Width;
+int _Height;
+
+
+[numthreads(ThreadBlockSize, 1, 1)]
+void Init(uint3 id : SV_DispatchThreadID)
+{
+	// インデックス取得
+	const unsigned int index = id.x;
+
+	int x = index % _Width;
+	int z = index / _Height;
+
+    _CubeDataBuffer[index].Position = float3(x - _Width / 2, 0, z - _Height / 2);
+	_CubeDataBuffer[index].Velocity = float3(0, 0, 0);
+		   
+ 
+	 
+	_BaseCubeDataBuffer[index].Position = float3(x - _Width / 2, 0, z - _Height / 2);
+	//_CubeDataBuffer[index].BasePosition += float3(frac(Random(index)), 0, frac(Random(index+1)));
+	_BaseCubeDataBuffer[index].Rotation = RandomVector(index);
+	_BaseCubeDataBuffer[index].Albedo = float3(1, 1, 1);
+
+	_PrevCubeDataBuffer[index].Rotation = _BaseCubeDataBuffer[index].Rotation;
+	_PrevCubeDataBuffer[index].Velocity = float3(0, 0, 0);
+
+}
+
